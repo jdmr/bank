@@ -124,7 +124,7 @@
       <file leaf-file-name="AccountController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/bank/AccountController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="44" selection-start="824" selection-end="830" vertical-scroll-proportion="0.02793296">
+            <state line="25" column="44" selection-start="824" selection-end="830" vertical-scroll-proportion="0.028037382">
               <folding>
                 <element signature="e#14#76#0" expanded="true" />
               </folding>
@@ -568,7 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/bank/AccountController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="824" selection-end="830" vertical-scroll-proportion="0.02793296">
+        <state line="25" column="44" selection-start="824" selection-end="830" vertical-scroll-proportion="0.028037382">
           <folding>
             <element signature="e#14#76#0" expanded="true" />
           </folding>
