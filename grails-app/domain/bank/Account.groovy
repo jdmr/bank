@@ -10,6 +10,6 @@ class Account {
 
     static mapping = {
         table 'accounts'
-        name(name:'account_name', index: ['account_idx'])
+        name(name:'account_name', index: 'account_idx')
     }
 }

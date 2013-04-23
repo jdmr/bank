@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52f14b94-8bf7-487b-8e44-aadf63720063" name="Default" comment="" />
+    <list default="true" id="52f14b94-8bf7-487b-8e44-aadf63720063" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/bank/Account.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/bank/Account.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/bank/AccountController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/bank/AccountController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/bank/User.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/bank/User.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/account/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/account/_form.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="bank.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
     <file path="/Account.groovy" changelist="52f14b94-8bf7-487b-8e44-aadf63720063" time="1366321059076" ignored="false" />
     <file path="/DataSource.groovy" changelist="52f14b94-8bf7-487b-8e44-aadf63720063" time="1365716874229" ignored="false" />
     <file path="/BuildConfig.groovy" changelist="52f14b94-8bf7-487b-8e44-aadf63720063" time="1366147572703" ignored="false" />
-    <file path="/Dummy.txt" changelist="52f14b94-8bf7-487b-8e44-aadf63720063" time="1366149351195" ignored="false" />
+    <file path="/Dummy.txt" changelist="52f14b94-8bf7-487b-8e44-aadf63720063" time="1366751714489" ignored="false" />
     <file path="/a.dummy" changelist="52f14b94-8bf7-487b-8e44-aadf63720063" time="1366149344159" ignored="false" />
     <file path="/AccountController.groovy" changelist="52f14b94-8bf7-487b-8e44-aadf63720063" time="1366322398076" ignored="false" />
     <file path="/BootStrap.groovy" changelist="52f14b94-8bf7-487b-8e44-aadf63720063" time="1366321258377" ignored="false" />
-    <file path="/User.groovy" changelist="52f14b94-8bf7-487b-8e44-aadf63720063" time="1366319041191" ignored="false" />
+    <file path="/User.groovy" changelist="52f14b94-8bf7-487b-8e44-aadf63720063" time="1366753009692" ignored="false" />
+    <file path="/_form.gsp" changelist="52f14b94-8bf7-487b-8e44-aadf63720063" time="1366753880975" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +84,7 @@
       <file leaf-file-name="Account.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/bank/Account.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="52" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+            <state line="5" column="45" selection-start="85" selection-end="92" vertical-scroll-proportion="-3.2608695">
               <folding />
             </state>
           </provider>
@@ -94,7 +102,7 @@
       <file leaf-file-name="User.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/bank/User.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+            <state line="37" column="1" selection-start="704" selection-end="704" vertical-scroll-proportion="-11.1">
               <folding />
             </state>
           </provider>
@@ -115,19 +123,37 @@
       <file leaf-file-name="BootStrap.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="434" selection-end="811" vertical-scroll-proportion="0.0">
+            <state line="23" column="67" selection-start="737" selection-end="743" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AccountController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/bank/AccountController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="44" selection-start="824" selection-end="830" vertical-scroll-proportion="0.028037382">
+            <state line="29" column="31" selection-start="922" selection-end="922" vertical-scroll-proportion="-7.826087">
               <folding>
                 <element signature="e#14#76#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/account/create.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="77" selection-start="782" selection-end="782" vertical-scroll-proportion="-4.4680853">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/account/_form.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="50" selection-start="620" selection-end="620" vertical-scroll-proportion="0.49902153">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,15 +165,24 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/bank/User.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/bank/Account.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/bank/Account.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/bank/AccountController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/bank/User.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/account/_form.gsp" />
       </list>
     </option>
   </component>
@@ -175,7 +210,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -189,7 +224,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -200,12 +235,25 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -359,7 +407,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1024" height="742" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -371,8 +419,8 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924336" sideWeight="0.67147434" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924336" sideWeight="0.67202574" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -384,7 +432,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24948876" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -457,48 +505,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="93" selection-end="97" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/bank/Account.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="55" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/bank/Account.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="55" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="68" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -525,9 +531,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="67" selection-start="737" selection-end="743" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages_zh_CN.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages_th.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages_ru.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.092519686">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages_sv.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/bank/User.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+        <state line="37" column="1" selection-start="704" selection-end="704" vertical-scroll-proportion="-11.1">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/bank/Account.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="45" selection-start="85" selection-end="92" vertical-scroll-proportion="-3.2608695">
           <folding />
         </state>
       </provider>
@@ -542,36 +612,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/bank/Account.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/account/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="52" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="434" selection-end="811" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0">
+        <state line="16" column="77" selection-start="782" selection-end="782" vertical-scroll-proportion="-4.4680853">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/bank/AccountController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="824" selection-end="830" vertical-scroll-proportion="0.028037382">
+        <state line="29" column="31" selection-start="922" selection-end="922" vertical-scroll-proportion="-7.826087">
           <folding>
             <element signature="e#14#76#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/account/_form.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="50" selection-start="620" selection-end="620" vertical-scroll-proportion="0.49902153">
+          <folding />
         </state>
       </provider>
     </entry>
