@@ -25,7 +25,8 @@
 					<tr>
 					
 						<g:sortableColumn property="name" title="${message(code: 'account.name.label', default: 'Name')}" />
-					
+					    <th>Client</th>
+                        <th>Manager</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -33,7 +34,8 @@
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="show" id="${accountInstance.id}">${fieldValue(bean: accountInstance, field: "name")}</g:link></td>
-					
+					    <td>${accountInstance.client}</td>
+					    <td>${accountInstance.manager}</td>
 					</tr>
 				</g:each>
 				</tbody>

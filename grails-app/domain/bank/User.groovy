@@ -11,6 +11,10 @@ class User {
     boolean accountLocked = false
     boolean passwordExpired = false
 
+    static hasMany = [accounts: Account]
+
+    static mappedBy = [accounts: 'client']
+
     static constraints = {
         username blank: false, unique: true
         password blank: false

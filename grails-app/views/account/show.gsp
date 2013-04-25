@@ -32,6 +32,24 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${accountInstance?.client}">
+				<li class="fieldcontain">
+					<span id="client-label" class="property-label">Client</span>
+
+						<span class="property-value" aria-labelledby="name-label"><g:fieldValue bean="${accountInstance}" field="client"/></span>
+
+				</li>
+				</g:if>
+
+				<g:if test="${accountInstance?.manager}">
+				<li class="fieldcontain">
+					<span id="manager-label" class="property-label">Manager</span>
+
+						<span class="property-value" aria-labelledby="name-label"><g:fieldValue bean="${accountInstance}" field="manager"/></span>
+
+				</li>
+				</g:if>
+
 			</ol>
 			<g:form>
 				<fieldset class="buttons">
